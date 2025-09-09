@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.headerTop 
+{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #1F2937;
+padding: 10px;
+}
+.headerDiv {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLinks {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
