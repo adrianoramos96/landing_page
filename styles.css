@@ -24,3 +24,43 @@ padding: 10px;
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;;
+    padding: 0 24px 0 24px;
+    
+    
+}
+.item1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.button1 {
+    background-color: #3882f6;
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+}
+
+.itemList1 {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image1 {
+    height: 200px;
+    width: 400px;
+    background-image: url(https://images.pexels.com/photos/26792334/pexels-photo-26792334.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
