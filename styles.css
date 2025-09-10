@@ -51,6 +51,7 @@ padding: 10px;
     border-radius: 5px;
     border: none;
     color: #F9FAF8;
+    height: 30px;
 }
 
 .itemList1 {
@@ -149,4 +150,38 @@ background-size:cover;
 .quoteAuthor {
     font-size: 13px;
     align-self: flex-end;
+}
+
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+.section4Div {
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    background-color: #3882f6;
+    width: 920px;
+    
+}
+
+.section4 .button1 {
+    border: 1px solid white;
+}
+
+dl {color: white;}
+dt {font-weight: bold;}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
